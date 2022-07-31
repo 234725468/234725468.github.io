@@ -631,9 +631,11 @@ i:hover {
 .bg-1 {
     background-image: url("/index/bg-1.jpg");
 }
+
 .bg-2 {
     background-image: url("/index/bg-2.jpg");
 }
+
 .bg-3 {
     background-image: url("/index/bg-3.jpg");
 }
@@ -4225,4 +4227,13 @@ ul.contact-info2 i.fa {
     #carousel-area .carousel-item {
         height: auto;
     }
+}
+
+.company-profile {
+    text-align: center;
+    padding: 16px;
+}
+
+.company-info {
+    text-align: center;
 }
