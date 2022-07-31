@@ -644,7 +644,6 @@ i:hover {
     top: 25%;
     right: 10%;
     left: 10%;
-    text-shadow: none;
 }
 
 #carousel-area .carousel-item .carousel-caption h2 {
@@ -4236,4 +4235,71 @@ ul.contact-info2 i.fa {
 
 .company-info {
     text-align: center;
+}
+
+
+.online-solutions {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.online-solutions * {
+    box-sizing: border-box;
+}
+
+.online-solutions-item {
+    display: flex;
+
+}
+
+.online-desc {
+    flex-grow: 1;
+    width: 50%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.online-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.online-content {
+    padding: 10px 0;
+}
+
+.online-image {
+    flex-grow: 1;
+    width: 50%;
+}
+
+.online-image img{
+    width: 100%;
+    height: auto;
+}
+
+.online-button {
+    display: inline-block;
+    padding: 16px;
+    background-color: #ff5254;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: opacity 0.15s ease-in-out, background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+#carousel-slider .carousel-caption h2 {
+    text-shadow: black 0.1em 0.1em 0.3em
+}
+
+#carousel-slider .carousel-caption h3 {
+    text-shadow: black 0.1em 0.1em 0.3em
 }
