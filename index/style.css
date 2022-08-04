@@ -2618,7 +2618,6 @@ body {
 
 .i_d_logo {
     margin-right: 10px;
-    border: #979797 1px solid;
     float: left;
     padding: 2px;
     text-align: center;
@@ -2626,7 +2625,7 @@ body {
 }
 
 .i_d_logo img {
-    width: 80px;
+    width: 40px;
     height: auto;
     vertical-align: middle
 }
@@ -2648,7 +2647,6 @@ body {
 @media only screen and (max-width: 350px) {
     .i_d_logo {
         margin-right: 5px;
-        border: #979797 1px solid;
         float: left;
         padding: 2px;
         text-align: center;
@@ -2663,9 +2661,7 @@ body {
 
 .dowen_logo {
     overflow: hidden;
-    margin: 0px;
-    padding: 0px;
-    width: 180px;
+    padding: 20px 10px;
     margin: 0 auto
 }
 
@@ -2786,9 +2782,7 @@ body {
 
     .dowen_logo {
         overflow: hidden;
-        margin: 0px;
-        padding: 0px;
-        width: 180px;
+        padding: 0 10px;
         margin: 0;
         text-align: center
     }
@@ -2834,7 +2828,6 @@ body {
 
     .dowen_logo {
         overflow: hidden;
-        margin: 0px;
         padding: 0px;
         width: 99%;
         margin: 0 auto

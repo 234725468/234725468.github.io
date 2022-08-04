@@ -4228,9 +4228,31 @@ ul.contact-info2 i.fa {
     }
 }
 
+.company-section {
+    background-image: url("../index/company-section.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 30px 0 50px 0;
+}
+
+.company-section h3 {
+    color: #FFFFFF;
+}
+
 .company-profile {
     text-align: center;
-    padding: 16px;
+    padding: 24px;
+}
+.company-profile div{
+    display: inline-block;
+    text-align: center;
+    padding: 24px;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
 }
 
 .company-info {
