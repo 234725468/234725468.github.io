@@ -4325,3 +4325,28 @@ ul.contact-info2 i.fa {
 #carousel-slider .carousel-caption h3 {
     text-shadow: black 0.1em 0.1em 0.3em
 }
+
+.language-switchers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.35);
+    height: 24px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.lang-item {
+    line-height: 24px;
+    width: 47px;
+    text-align: center;
+}
+
+.current-lang {
+    background-color: #ff5254;
+    border-radius: 2px;
+}

@@ -1092,4 +1092,27 @@ header .container-fluid {
     }
 
 }
+.language-switchers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.35);
+    height: 30px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
 
+.lang-item {
+    line-height: 24px;
+    width: 47px;
+    text-align: center;
+}
+
+.current-lang {
+    background-color: #ff5254;
+    border-radius: 2px;
+}
